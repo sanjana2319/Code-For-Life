@@ -1,0 +1,262 @@
+        
+        .login{
+            font-weight: 300;font-size: 17px;
+        }
+        
+        *{
+            padding: 0;
+            margin: 10px;
+            box-sizing: border-box;    
+         }
+        body{
+            
+           background-color: #f6fdfd;   
+           font-size: 18px;
+         }
+         .side-button{   
+            font-family: 'Open Sans', sans-serif;
+            list-style-type: none;
+            text-decoration: none;
+            font-weight: normal;
+         }
+        .title{
+            display:inline-block; 
+            margin-right:70%;
+        }
+           table
+           {
+            width:577px;
+            margin-right:0px;
+           }
+         a {
+             color: black;
+             text-decoration: none;
+         }
+         .login{
+              font-family: 'Open Sans', sans-serif;
+                list-style-type: none;
+                text-decoration: none;
+                font-weight: none;
+         }
+
+         .signup{
+             border: 1px solid #454048;
+             width: 80px;
+             
+             text-align: center;
+            
+
+         }
+
+
+         .templete{
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 27px;
+            line-height: 1.35em;
+            padding-bottom: 40px;
+            padding-top: 30px;
+            padding-left: 30px;
+            margin: auto;
+            color: #072537;
+            width:100%;
+            padding-right: 0;
+            
+        }
+        nav{
+            position:absolute;
+            right: 100px;
+            top: 30px;
+            margin: 0;
+        }
+        .firstLine{
+            font-family:'Lato', sans-serif;
+            font-size: 45px;
+            margin-left:0px;
+            width:500px;
+            min-width:100px;
+            line-height: 1.05em;
+            color: inherit;
+            padding-left:20px;
+            color: #a39c9b;
+            padding-top: 5px;
+        }
+        .InnerContent{
+            display: inline-block;
+            
+        }
+        .subcontent1{
+            position: relative;
+            width:330px;
+            min-width: 330px;
+            margin-right: 950px;
+
+        }
+        .subcontent2{
+            position: absolute;
+            top: 530px;
+             width:300px;
+            margin-right: 1000px;
+            margin-left: 350px;
+            margin-top: -210px;
+        }
+        .details{
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 28px;
+            color: rgb(56, 54, 54);
+            
+            
+        }
+        .info{
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(89,87,87);
+            
+            
+        }
+        .button {
+             background-color: #128121; 
+             border: none;
+             color: white;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             margin-left: 0px;
+             font-family: 'Nanum Gothic Coding', monospace;
+             font-size: 20px;
+             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            
+         }
+         .button1{
+             background-color: white;
+             color: #128121;
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-family: 'Nanum Gothic Coding', monospace;
+             font-size: 20px;
+             border: 1px solid #128121; 
+         }
+         .img{
+             position: absolute;
+             right: 0px;
+             top: 120px;
+             margin: 0 auto;
+             padding-right: 0px;       
+    }
+    .img img{
+         margin:30px;
+    }
+  
+    @media only screen and (max-width:1250px){
+        .templete{
+            width: 80%;
+
+        }
+        .content-area{
+            width:100%;
+            margin:auto;
+        }
+            .img{
+                position: absolute;
+                width:40%;
+                margin:auto;
+            }
+            nav{
+                right: -150px;
+            }
+    }
+     @media only screen and (max-width: 1160px){
+        .img{
+            width: 30%;
+         
+        
+    }
+    
+}
+    @media only screen and (max-width: 1023px){
+        
+          .header{
+            margin: auto; 
+         }
+         .content-area{
+            width: 80%;
+            margin: auto;
+        }
+        .subcontent2{
+            position: relative;
+            margin-left: 0%;
+            margin-top: -35%;
+            font-size: 28px;
+        }
+       
+        .img{
+           position: absolute;
+           display: none;
+
+        }
+        nav{
+            right:-200px;
+         }
+         .subcontent1{
+             font-size: 28px;
+         }
+    }
+    @media only screen and (max-width: 700px){
+        .img{
+            display: none;
+        }
+        .content-area{
+            width: 100%;
+        }
+        .codeforlife{
+            font-size: 50%;
+        }
+        .subcontent2{
+            position: absolute;
+            margin-top: 200px;
+            font-size: 28px;
+        }
+        *{
+            width: 100%;
+        }
+        .templete{
+            width: 100%;
+        }
+
+        .login{
+            position: absolute;
+            padding: 10px;
+            top: 50px;
+            left: -190px;
+         }
+    
+    .signup{
+        position: absolute;
+        top: 45px;
+    
+        
+    margin-left: -60px;
+    }
+    @media only screen and (max-width:700px){
+.header{display: inline;
+}
+.login{
+    position: absolute;
+    padding: 20px;
+    top: 30px;
+    left: -190px;
+}
+    .sigup{
+    
+    margin-left: 20px;
+    }
+    }
+@media only screen and (max-width:340px){
+    .firstLine{
+        width: 100%;
+        font-size: 30px;
+    }
+}
